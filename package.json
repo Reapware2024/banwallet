@@ -1,0 +1,35 @@
+{
+  "name": "reapware-kban-integration",
+  "version": "1.0.0",
+  "description": "Integration of Reapware KBAN with Apple Wallet using Braintree and PassKit.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'npm run build'",
+    "test": "echo 'No test defined'"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "braintree": "^3.10.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Reapware2024/KBANWALLET.git"
+  },
+  "keywords": [
+    "reapware",
+    "kban",
+    "braintree",
+    "apple-wallet",
+    "passkit"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
